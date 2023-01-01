@@ -18,7 +18,7 @@ jobs:
       # Each of these ifs needs to be repeated at each step to make sure the required check still runs
       # Even if if doesn't do anything
       - name: Checkout
-        uses: actions/checkout@1e204e9a9253d643386038d443f96446fa156a97
+        uses: actions/checkout@755da8c3cf115ac066823e79a1e1788f8940201b
         with:
           lfs: true
       - name: Checkout LFS objects
